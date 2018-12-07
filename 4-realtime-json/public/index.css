@@ -1,0 +1,28 @@
+form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input {
+  width: 90%;
+  margin-right: .5%;
+}
+
+form button {
+  width: 9%;
+}
+
+#chat {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#chat li {
+  padding: 5px 10px;
+}
+
+#chat li:nth-child(odd) {
+  background: #eee;
+}
